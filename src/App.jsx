@@ -1,9 +1,9 @@
 //main entry point of the app
 
 import React from "react";
-import { AuthProvider , useAuth} from "./context/AuthContext";
-import AuthForm from "./components /authForm";
-import Dashboard from "./components /Dashboard";
+import { AuthProvider , useAuth}  from  "./context/authContext"
+import AuthForm from "./components/authForm";
+import Dashboard from "./components/Dashboard";
 
 function MainContent(){
   const {currentUser}=useAuth();
